@@ -102,7 +102,7 @@ const services = [
         {/* --- HEADER --- */}
         <header className="border-b border-modline sticky top-0 bg-[var(--background)] z-50">
           <nav className="px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div className="font-bold tracking-widest text-xl">JEPC STUDIO WEB</div>
+            <div className="font-bold tracking-widest text-xl">CUSCO DIGITAL STUDIO</div>
             <div className="flex gap-2 sm:gap-6">
               {menuItems.map((item) => (
                 <a
@@ -144,17 +144,17 @@ const services = [
 		    {/* TEXTO */}
 		    <div className="order-2 lg:order-1 text-center lg:text-left">
 		      <h1 className="text-4xl sm:text-6xl tracking-tight mb-4 uppercase">
-			<b>Estudio de Desarrollo Web</b>
+			<b>Impulsamos tu presencia digital</b>
 		      </h1>
 
 		      <p className="text-lg sm:text-xl mb-6 text-gray-300">
 			<b className="font-medium text-modline bg-[#2a2a2a] px-3 py-1 border border-modline uppercase tracking-widest text-sm">
-			  Diseño • Lógica • Escalabilidad
+			  Diseño • Lógica • Estrategia Digital 
 			</b>
 		      </p>
 
-		      <p className="max-w-xl mx-auto lg:mx-0 leading-relaxed text-gray-400 mb-10 text-sm sm:text-base">
-			Construimos presencias digitales. Nos especializamos en crear soluciones web rápidas y seguras.
+		      <p className="max-w-xl mx-auto lg:mx-0 leading-relaxed text-gray-200 mb-10 text-sm sm:text-base">
+		      Creamos soluciones digitales modernas, rápidas y enfocadas en resultados. Ayudamos a negocios a destacar en internet y convertir visitas en clientes.
 		      </p>
 
 		      <a

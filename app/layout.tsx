@@ -7,8 +7,8 @@ const robotoMono = Roboto_Mono({
 	subsets:["latin"]
 })
 export const metadata: Metadata = {
-  title: "JEPC - Web Studio",
-  description: "Desarrollo de app webs a medida.",
+  title: "Cusco Digital Studio",
+  description: "Web, marketing y crecimiento digital.",
 };
 
 export default function RootLayout({
