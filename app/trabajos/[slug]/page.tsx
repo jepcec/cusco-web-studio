@@ -69,9 +69,7 @@ export default function ProjectDetail() {
         <div className="border border-modline min-h-[calc(100vh-1rem)] flex flex-col bg-[var(--background)]">
 
           <header className="border-b border-modline p-6 flex justify-between items-center sticky top-0 bg-[var(--background)] z-50">
-            <Link href="/" className="font-bold tracking-widest text-xl hover:text-modline transition-colors">
-              JEPC STUDIO WEB
-            </Link>
+            <Link href="/" className="font-bold tracking-widest text-xl hover:text-modline transition-colors"> CUSCO DIGITAL STUDIO</Link>
             <Link href="/#projects" className="px-4 py-2 border border-modline hover:bg-modline hover:text-[var(--background)] transition-colors text-sm uppercase font-bold">
               ← Volver
             </Link>
