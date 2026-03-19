@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Services from "./components/Services";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import AboutUs from "./components/AboutUs";
 
 export default function Home() {
   // --- DATOS: PROYECTOS ---
@@ -28,6 +29,7 @@ export default function Home() {
 			<Projects/>
 
 			{/* ... LA SECCIÓN DE CONTACTO Y EL FOOTER SE MANTIENEN IGUAL ... */}
+			<AboutUs/>
 		  
 		</main>
 		</div>
