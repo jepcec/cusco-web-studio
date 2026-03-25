@@ -10,12 +10,12 @@ export default function AboutUs(){
             Sobre <b>Nosotros</b>
           </h2>
 
-          <p className="text-gray-200 mb-6 leading-relaxed text-sm sm:text-base">
+          <p className="text-gray-200 mb-6 leading-relaxed text-sm sm:text-base text-justify">
             Somos <b>CUSCO DIGITAL STUDIO</b>, un equipo apasionado por el diseño, la estrategia y el desarrollo digital.
             Nos especializamos en crear soluciones modernas y efectivas para negocios que buscan destacar en internet.
           </p>
 
-          <p className="text-gray-300 mb-6 leading-relaxed text-sm sm:text-base">
+          <p className="text-gray-300 mb-6 leading-relaxed text-sm sm:text-base text-justify">
             Nuestra misión es impulsar la presencia digital de nuestros clientes, combinando creatividad,
             tecnología y estrategia para convertir visitas en clientes reales.
           </p>

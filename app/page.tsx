@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
 
 export default function Home() {
   // --- DATOS: PROYECTOS ---
@@ -28,8 +29,11 @@ export default function Home() {
 			{/* 3. PROJECTS SECTION (Renderizado Dinámico) */}
 			<Projects/>
 
-			{/* ... LA SECCIÓN DE CONTACTO Y EL FOOTER SE MANTIENEN IGUAL ... */}
+			{/* 4. ABOUT US SECTION */}
 			<AboutUs/>
+
+			{/* 5. CONTACT SECTION */}
+			<Contact/>
 		  
 		</main>
 		</div>

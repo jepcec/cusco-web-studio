@@ -11,7 +11,6 @@ const projectsDB = [
       "Diseño y desarrollo de una landing page comercial para un spa ubicado en Cusco, orientada a la captación directa de reservas mediante WhatsApp. El proyecto se enfocó en transmitir una identidad visual relajante y profesional, optimizando la estructura para conversión, claridad de servicios y experiencia móvil.",
     client: "Bambú Spa Cusco",
     year: "2026",
-    role: "Full Stack Developer / UI & UX Design",
     technologies: [
       "Astro",
       "Tailwind CSS",
@@ -36,7 +35,6 @@ const projectsDB = [
       "Sitio web de alto impacto visual para una agencia de marketing. Se priorizó una arquitectura que permitiera animaciones fluidas sin sacrificar el rendimiento ni el SEO.",
     client: "Agencia Grow",
     year: "2026",
-    role: "Frontend Developer",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveUrl: "https://ejemplo-agencia.com",
     githubUrl: "#",
@@ -84,7 +82,6 @@ export default function ProjectDetail() {
               <div className="flex flex-wrap justify-center gap-4 text-sm font-mono text-gray-400">
                 <span className="border border-modline px-3 py-1 bg-[var(--background)]">Cliente: {project.client}</span>
                 <span className="border border-modline px-3 py-1 bg-[var(--background)]">Año: {project.year}</span>
-                <span className="border border-modline px-3 py-1 bg-[var(--background)]">Rol: {project.role}</span>
               </div>
             </section>
 
@@ -118,15 +115,6 @@ export default function ProjectDetail() {
                       <span className="font-bold uppercase text-sm">Ver Proyecto Vivo</span>
                       <span>↗</span>
                     </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-between border border-gray-600 px-4 py-3 hover:border-modline transition-colors text-gray-400 hover:text-white"
-                    >
-                      <span className="uppercase text-sm">Repositorio GitHub</span>
-                      <span>→</span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -137,7 +125,7 @@ export default function ProjectDetail() {
                   <h2 className="text-2xl font-bold uppercase tracking-widest mb-6">
                     El Proyecto
                   </h2>
-                  <p className="text-gray-300 leading-relaxed text-lg">
+                  <p className="text-gray-300 leading-relaxed text-lg text-justify">
                     {project.description}
                   </p>
                 </div>
@@ -146,7 +134,7 @@ export default function ProjectDetail() {
                   <h2 className="text-xl font-bold uppercase tracking-widest mb-6">
                     Desafío Técnico
                   </h2>
-                  <p className="text-gray-400 leading-relaxed border-l-4 border-modline pl-4">
+                  <p className="text-gray-400 leading-relaxed border-l-4 border-modline pl-4 text-justify">
                     {project.challenges}
                   </p>
                 </div>

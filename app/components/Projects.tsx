@@ -5,7 +5,7 @@ export default function Projects(){
       slug: "bambu-spa-cusco",
       title: "Centro de Terapias y Masajes",
       description: "Landing page enfocada en conversión y presentación de servicios de bienestar.",
-      tags: ["Astro", "Tailwind CSS"],
+      tags: ["Spa", "Landing page intermedia"],
       imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/bambuspacusco_hero_eooanr.webp"
     },
     {

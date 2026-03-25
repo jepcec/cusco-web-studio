@@ -32,7 +32,7 @@ export default function Hero(){
 			</b>
 		      </p>
 
-		      <p className="max-w-xl mx-auto lg:mx-0 leading-relaxed text-gray-300 mb-10 text-sm sm:text-base">
+		      <p className="max-w-xl mx-auto lg:mx-0 leading-relaxed text-gray-300 mb-10 text-sm sm:text-base text-justify">
 		      Creamos soluciones digitales modernas, rápidas y enfocadas en resultados. Ayudamos a negocios a destacar en internet y convertir visitas en clientes.
 		      </p>
 
