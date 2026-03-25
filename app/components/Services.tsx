@@ -1,3 +1,14 @@
+type Service = {
+  id: string;
+  name: string;
+  badge: string;
+  description: string;
+  price: string;
+  icon: React.ReactNode;
+  includes: string[];
+  featured?: boolean;
+};
+
 export default function Services() {
   const landingServices = [
     {
@@ -110,7 +121,7 @@ export default function Services() {
       }
   ];
 
-  const ServiceCard = ({ service, isFeatured = false }) => (
+  const ServiceCard = ({ service, isFeatured = false }:{service: Service, isFeatured?:boolean}) => (
     <div
       className={`group border border-modline p-8 flex flex-col h-full transition-all duration-500 relative
       ${isFeatured 
@@ -184,7 +195,7 @@ export default function Services() {
     </div>
   );
 
-  const SectionHeader = ({ title }) => (
+  const SectionHeader = ({ title }:{title: string}) => (
     <div className="flex items-center gap-6 mb-16 mt-12">
         <h3 className="text-xl md:text-2xl font-black uppercase tracking-[0.2em] whitespace-nowrap">
             {title}
