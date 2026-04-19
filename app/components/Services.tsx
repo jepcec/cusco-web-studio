@@ -88,7 +88,7 @@ includes: [
       id: "google-maps",
       name: "Google Business & Maps",
       badge: "Local SEO",
-      description: "Para quienes atienden público de su zona o distrito.",
+      description: "Para quienes quieren que su negocio, consultorio o local aparezca en Google Maps.",
       price: "S/ 150",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
@@ -100,35 +100,16 @@ includes: [
         "Creación de ficha en Google",
         "Optimización para búsquedas locales",
         "Configuración de horarios",
-        "Fotos de tu proyecto",
+        "Fotos",
         "Botón directo a WhatsApp"
       ]
     },
-    {
-        id: "mantenimiento",
-        name: "Soporte y Mantenimiento",
-        badge: "Seguridad",
-        description: "Para quienes prefieren despreocuparse de lo técnico.",
-        price: "S/ 100 / mes",
-        icon: (
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
-            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-          </svg>
-        ),
-        includes: [
-          "Actualizaciones de seguridad",
-          "Respaldo mensual",
-          "Corrección de errores",
-          "Optimización de rendimiento",
-          "Soporte prioritario"
-        ]
-      },
       {
         id: "redisenio",
         name: "Rediseño y Mejora",
         badge: "Actualización",
         description: "Para quienes tienen una web antigua y quieren modernizarla.",
-        price: "Desde S/ 350",
+        price: "Desde S/ 400",
         icon: (
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
             <path d="M11 4a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
@@ -141,7 +122,6 @@ includes: [
           "Diseño moderno y responsivo",
           "Optimización de velocidad",
           "Mejora de SEO básico",
-          "Botón de WhatsApp"
         ]
       }
   ];
