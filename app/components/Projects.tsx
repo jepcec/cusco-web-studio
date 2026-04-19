@@ -31,7 +31,7 @@ const exampleLandings = [
     title: "Agencia de Turismo",
     description: "Landing page para agencia de tours en Cusco con integración de WhatsApp.",
     tags: ["Turismo", "Next.js", "WhatsApp"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/agencia_turismo_mockup_w6fzsd.webp"
+    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
   },
   {
     slug: "clinica-dental",
@@ -56,11 +56,16 @@ const exampleLandings = [
   }
 ];
 
-const SectionHeader = ({ title }: { title: string }) => (
-  <div className="flex items-center gap-6 mb-12">
-    <h3 className="text-xl md:text-2xl font-black uppercase tracking-[0.2em] whitespace-nowrap">
-      {title}
-    </h3>
+const SectionHeader = ({ title, subtitle }: { title: string; subtitle?: string }) => (
+  <div className="flex items-center gap-6 mb-16">
+    <div>
+      <h3 className="text-xl md:text-2xl font-black uppercase tracking-[0.2em] whitespace-nowrap">
+        {title}
+      </h3>
+      {subtitle && (
+        <p className="text-gray-400 text-xs tracking-widest uppercase mt-1">{subtitle}</p>
+      )}
+    </div>
     <div className="h-[1px] bg-modline/30 w-full"></div>
   </div>
 );
@@ -98,16 +103,24 @@ export default function Projects(){
   return(
     <section id="projects" className="py-20 px-6 border-b border-modline">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold mb-12 text-center uppercase tracking-widest">Trabajos Realizados</h2>
+        <header className="text-center mb-20">
+          <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4">
+            Proyectos
+          </h2>
+          <div className="w-24 h-1 bg-modline mx-auto mb-6"></div>
+          <p className="text-gray-400 max-w-2xl mx-auto uppercase text-xs tracking-[0.3em] font-bold">
+            Trabajos realizados y galeria.
+          </p>
+        </header>
         
-        <SectionHeader title="Proyectos Reales" />
+        <SectionHeader title="Proyectos" subtitle="trabajos publicados" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {projects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>
 
-        <SectionHeader title="Ejemplos de Landing Pages" />
+        <SectionHeader title="Galeria" subtitle="Revisa cómo puede verse tu próxima pagina web" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {exampleLandings.map((project) => (
             <ProjectCard key={project.slug} project={project} />
