@@ -15,7 +15,7 @@ export default function Services() {
       id: "basico",
       name: "Landing Page Básica",
       badge: "Esencial",
-      description: "Solución estructurada para negocios que necesitan presencia digital clara y funcional sin arquitectura compleja.",
+      description: "Para quienes inician su presencia digital.",
       price: "S/ 450",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
@@ -23,9 +23,9 @@ export default function Services() {
         </svg>
       ),
       includes: [
-        "Dominio y Hosting (gestión con asesoría)",
+        "Tu nombre de dominio (.com) por 1 año",
         "1 página / hasta 4 secciones",
-        "Diseño responsivo móvil",
+        "Se adapta a cualquier pantalla",
         "Botón directo a WhatsApp",
         "Formulario de contacto",
         "5 horas de soporte técnico"
@@ -35,7 +35,7 @@ export default function Services() {
       id: "intermedio",
       name: "Landing Page Intermedia",
       badge: "recomendado",
-      description: "Desarrollo estructurado para negocios que requieren mayor profundidad de contenido y mejor captación de clientes.",
+      description: "Para quienes necesitan más contenido y captar clientes.",
       price: "S/ 750",
       featured: true,
       icon: (
@@ -45,13 +45,14 @@ export default function Services() {
           <line x1="12" y1="22.08" x2="12" y2="12" />
         </svg>
       ),
-      includes: [
-        "Dominio y Hosting (gestión con asesoría)",
+includes: [
+        "Tu nombre de dominio (.com) por 1 año",
         "Hasta 4 páginas internas",
         "Secciones ilimitadas",
-        "Diseño responsivo avanzado",
-        "Mensaje de WhatsApp dinámico",
-        "Formulario de contacto inteligente",
+        "Se adapta a cualquier pantalla",
+        "Botón directo a WhatsApp",
+        "Mensaje de WhatsApp personalizado",
+        "Formulario de contacto",
         "10 horas de soporte técnico"
       ],
     },
@@ -59,7 +60,7 @@ export default function Services() {
       id: "completo",
       name: "Landing Page Completa",
       badge: "Premium",
-      description: "Solución avanzada orientada a conversión, rendimiento y escalabilidad para negocios consolidados.",
+      description: "Para quienes buscan escalar y rendimiento máximo.",
       price: "S/ 1100",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
@@ -68,13 +69,16 @@ export default function Services() {
         </svg>
       ),
       includes: [
-        "Dominio y Hosting (gestión con asesoría)",
+        "Tu nombre de dominio (.com) por 1 año",
         "Páginas ilimitadas",
-        "Arquitectura de conversión",
-        "Optimización de velocidad extrema",
-        "Seguridad avanzada (SSL)",
-        "Analítica e informes básicos",
-        "20 horas de soporte técnico"
+        "Secciones ilimitadas",
+        "Se adapta a cualquier pantalla",
+        "Botón directo a WhatsApp",
+        "Mensaje de WhatsApp personalizado",
+        "Formulario de contacto",
+        "Google Maps configurado",
+        "Reportes de visitas",
+        "15 horas de soporte técnico"
       ],
     }
   ];
@@ -84,7 +88,7 @@ export default function Services() {
       id: "google-maps",
       name: "Google Business & Maps",
       badge: "Local SEO",
-      description: "Pon tu negocio en el mapa y atrae clientes locales con una ficha de Google Business profesional y optimizada.",
+      description: "Para quienes atienden público de su zona o distrito.",
       price: "S/ 150",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
@@ -93,18 +97,18 @@ export default function Services() {
         </svg>
       ),
       includes: [
-        "Creación o reclamo de ficha",
-        "Optimización de SEO Local",
+        "Creación de ficha en Google",
+        "Optimización para búsquedas locales",
         "Configuración de horarios",
-        "Carga de fotos iniciales",
-        "Enlace directo a WhatsApp"
+        "Fotos de tu proyecto",
+        "Botón directo a WhatsApp"
       ]
     },
     {
         id: "mantenimiento",
         name: "Soporte y Mantenimiento",
         badge: "Seguridad",
-        description: "Mantén tu sitio web actualizado, seguro y funcionando al 100% sin preocuparte por los detalles técnicos.",
+        description: "Para quienes prefieren despreocuparse de lo técnico.",
         price: "S/ 100 / mes",
         icon: (
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
@@ -113,10 +117,31 @@ export default function Services() {
         ),
         includes: [
           "Actualizaciones de seguridad",
-          "Backups mensuales",
-          "Corrección de errores menores",
-          "Optimización de base de datos",
+          "Respaldo mensual",
+          "Corrección de errores",
+          "Optimización de rendimiento",
           "Soporte prioritario"
+        ]
+      },
+      {
+        id: "redisenio",
+        name: "Rediseño y Mejora",
+        badge: "Actualización",
+        description: "Para quienes tienen una web antigua y quieren modernizarla.",
+        price: "Desde S/ 350",
+        icon: (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-modline">
+            <path d="M11 4a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+            <path d="M21 20a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1h2a1 1 0 011 1v2z" />
+            <path d="M8 12a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H9a1 1 0 01-1-1v-6z" />
+          </svg>
+        ),
+        includes: [
+          "Análisis de tu web actual",
+          "Diseño moderno y responsivo",
+          "Optimización de velocidad",
+          "Mejora de SEO básico",
+          "Botón de WhatsApp"
         ]
       }
   ];
@@ -213,7 +238,7 @@ export default function Services() {
           </h2>
           <div className="w-24 h-1 bg-modline mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto uppercase text-xs tracking-[0.3em] font-bold">
-            Soluciones digitales de alto impacto para negocios modernos.
+            Soluciones digitales de alto impacto para quienes buscan crecer.
           </p>
         </header>
 
@@ -227,7 +252,7 @@ export default function Services() {
 
         {/* SECTION: EXTRA SERVICES */}
         <SectionHeader title="Servicios Extra" />
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 items-stretch">
           {extraServices.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}
