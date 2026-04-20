@@ -36,9 +36,9 @@ const exampleLandings = [
   {
     slug: "hoteleria",
     title: "Hoteleria",
-    description: "Landing page para hoteles y hospedajes con reservaciones在线.",
+    description: "Landing page para hoteles y hospedajes con reservaciones.",
     tags: ["Hotel", "Reservas", "Next.js"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
+    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/v1776650463/Hotel-templete_ehnblg.webp"
   }
 ];
 

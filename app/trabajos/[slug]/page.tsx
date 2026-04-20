@@ -75,9 +75,9 @@ const projectsDB = [
     challenges:
       "Creación de un template flexible que permita mostrar diferentes tipos de habitaciones (estándar, suite, etc.) con precios diferenciados y disponibilidad. Sistema de запрос de reservas simple via WhatsApp.",
 
-    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png",
-    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png",
-    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
+    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776650463/Hotel-templete_ehnblg.webp",
+    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776650462/Hotel-movil-templete_d0ejok.webp",
+    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776650462/Hotel-2-templete_yi7tkq.webp"
   }
 ];
 
@@ -173,41 +173,65 @@ export default function ProjectDetail() {
                   </p>
                 </div>
 
-                <div className="space-y-6">
+                <div className="space-y-8">
 
-                  <div
-                    className="aspect-video border border-modline bg-[#2a2a2a] overflow-hidden group cursor-pointer"
-                    onClick={() => setActiveImage(project.heroImage)}
-                  >
-                    <img
-                      src={project.heroImage}
-                      alt="Captura principal"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                    />
+                  <div>
+                    <h2 className="text-xl font-bold uppercase tracking-widest mb-6">
+                      Vista Previa
+                    </h2>
+                    <div
+                      className="aspect-video border border-modline bg-[#2a2a2a] overflow-hidden group cursor-pointer relative"
+                      onClick={() => setActiveImage(project.heroImage)}
+                    >
+                      <img
+                        src={project.heroImage}
+                        alt="Captura principal"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      />
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                        <span className="text-white text-sm font-medium uppercase tracking-wider">Vista Principal — Escritorio</span>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                    <div
-                      className="aspect-square border border-modline bg-[#2a2a2a] overflow-hidden cursor-pointer"
-                      onClick={() => setActiveImage(project.mobileImage)}
-                    >
-                      <img
-                        src={project.mobileImage}
-                        alt="Detalle móvil"
-                        className="w-full h-full object-cover"
-                      />
+                    <div>
+                      <h3 className="text-sm font-bold uppercase tracking-widest mb-4 text-gray-400">
+                        Vista Móvil
+                      </h3>
+                      <div
+                        className="aspect-square border border-modline bg-[#2a2a2a] overflow-hidden cursor-pointer relative max-w-[280px] mx-auto"
+                        onClick={() => setActiveImage(project.mobileImage)}
+                      >
+                        <img
+                          src={project.mobileImage}
+                          alt="Detalle móvil"
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                          <span className="text-white text-xs font-medium uppercase tracking-wider">Responsive — Móvil</span>
+                        </div>
+                      </div>
                     </div>
 
-                    <div
-                      className="aspect-square border border-modline bg-[#2a2a2a] overflow-hidden cursor-pointer"
-                      onClick={() => setActiveImage(project.sectionImage)}
-                    >
-                      <img
-                        src={project.sectionImage}
-                        alt="Sección interna"
-                        className="w-full h-full object-cover"
-                      />
+                    <div>
+                      <h3 className="text-sm font-bold uppercase tracking-widest mb-4 text-gray-400">
+                        Sección Interna
+                      </h3>
+                      <div
+                        className="aspect-square border border-modline bg-[#2a2a2a] overflow-hidden cursor-pointer relative"
+                        onClick={() => setActiveImage(project.sectionImage)}
+                      >
+                        <img
+                          src={project.sectionImage}
+                          alt="Sección interna"
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                          <span className="text-white text-xs font-medium uppercase tracking-wider">Detalle de Sección</span>
+                        </div>
+                      </div>
                     </div>
 
                   </div>
