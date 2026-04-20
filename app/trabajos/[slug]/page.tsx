@@ -53,65 +53,31 @@ const projectsDB = [
     client: "Template",
     year: "2026",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "WhatsApp API"],
-    liveUrl: "https://ejemplo-agencia-turismo.com",
+    liveUrl: "https://templete-agencia-turismo.vercel.app/",
     githubUrl: "#",
     challenges:
       "Creación de un template reutilizable que pueda adaptarse a diferentes agencias de turismo con personalización de colores, tours y precios.",
 
-    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/agencia_turismo_mockup_w6fzsd.webp",
-    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/agencia_turismo_mockup_w6fzsd.webp",
-    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/agencia_turismo_mockup_w6fzsd.webp"
+    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png",
+    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-movil-templete_zjvv5f.png",
+    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-2-templete_uuuqvx.png"
   },
   {
-    slug: "clinica-dental",
-    title: "Clínica Dental — Template",
+    slug: "hoteleria",
+    title: "Hotelería — Template",
     description:
-      "Sitio web template para consultorios dentales. Diseño limpio y profesional con secciones para servicios, equipo médico, testimonios y agendamiento de citas.",
+      "Template diseñado para hoteles, hostales y ospdedajes. Incluye secciones para habitaciones, servicios del hotel, galería de fotos, testimoniales y sistema de reservas online integrado con WhatsApp.",
     client: "Template",
     year: "2026",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "WhatsApp API"],
-    liveUrl: "https://ejemplo-clinica-dental.com",
+    liveUrl: "https://ejemplo-hoteleria.com",
     githubUrl: "#",
     challenges:
-      "Estructura modular que permita agregar servicios dentales específicos como ortodoncia, implantes,.blanqueamiento, etc.",
+      "Creación de un template flexible que permita mostrar diferentes tipos de habitaciones (estándar, suite, etc.) con precios diferenciados y disponibilidad. Sistema de запрос de reservas simple via WhatsApp.",
 
-    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/clinica_dental_mockup_jkz9xm.webp",
-    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/clinica_dental_mockup_jkz9xm.webp",
-    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/clinica_dental_mockup_jkz9xm.webp"
-  },
-  {
-    slug: "restaurante-gastronomico",
-    title: "Restaurante Gastronómico — Template",
-    description:
-      "Template para restaurantes gastronomicos con menú interactivo, reservaciones y historia del chef. Diseño elegante con animaciones suaves.",
-    client: "Template",
-    year: "2026",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
-    liveUrl: "https://ejemplo-restaurante.com",
-    githubUrl: "#",
-    challenges:
-      "Menú dinamico con categorias, precios y opciones de allergenos. Integración con sistemas de reservaciones.",
-
-    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/restaurante_mockup_ap5yz8.webp",
-    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/restaurante_mockup_ap5yz8.webp",
-    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/restaurante_mockup_ap5yz8.webp"
-  },
-  {
-    slug: "academia-cursos",
-    title: "Academia de Cursos — Template",
-    description:
-      "Template para academias de cursos online y presenciales. Incluye catalogo de cursos, información de profesores, testimonios y integración con pasarela de pagos.",
-    client: "Template",
-    year: "2026",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Stripe"],
-    liveUrl: "https://ejemplo-academia.com",
-    githubUrl: "#",
-    challenges:
-      "Catalog de cursos filtrable por categoria, nivel y precio. Sistema de información de cursos destacados.",
-
-    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/academia_mockup_bh7k2w.webp",
-    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/academia_mockup_bh7k2w.webp",
-    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/academia_mockup_bh7k2w.webp"
+    heroImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png",
+    mobileImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png",
+    sectionImage: "https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
   }
 ];
 

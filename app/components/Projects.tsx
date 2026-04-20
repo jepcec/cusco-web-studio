@@ -29,30 +29,16 @@ const exampleLandings = [
   {
     slug: "agencia-turismo",
     title: "Agencia de Turismo",
-    description: "Landing page para agencia de tours en Cusco con integración de WhatsApp.",
+    description: "Landing page para agencia de tours con integración de WhatsApp.",
     tags: ["Turismo", "Next.js", "WhatsApp"],
     imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
   },
   {
-    slug: "clinica-dental",
-    title: "Clínica Dental",
-    description: "Sitio web para consultorio dental con agendamiento de citas.",
-    tags: ["Salud", "Landing page básica"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/clinica_dental_mockup_jkz9xm.webp"
-  },
-  {
-    slug: "restaurante-gastronomico",
-    title: "Restaurante Gastronómico",
-    description: "Web para restaurante con menú interactivo y reservaciones.",
-    tags: ["Restaurante", "Interactivo"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/restaurante_mockup_ap5yz8.webp"
-  },
-  {
-    slug: "academia-cursos",
-    title: "Academia de Cursos",
-    description: "Plataforma para cursos online con integración de pago.",
-    tags: ["Educación", "E-commerce"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/academia_mockup_bh7k2w.webp"
+    slug: "hoteleria",
+    title: "Hoteleria",
+    description: "Landing page para hoteles y hospedajes con reservaciones在线.",
+    tags: ["Hotel", "Reservas", "Next.js"],
+    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/v1776640464/Agencia-templete_texv2j.png"
   }
 ];
 
@@ -121,7 +107,7 @@ export default function Projects(){
         </div>
 
         <SectionHeader title="Galeria" subtitle="Revisa cómo puede verse tu próxima pagina web" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {exampleLandings.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
