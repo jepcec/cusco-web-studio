@@ -55,7 +55,7 @@ export default function Contact() {
             <div className="space-y-8">
               {/* WHATSAPP MEJORADO: Todo el bloque es un enlace */}
               <a 
-                href={`https://wa.me/51912648714?text=${whatsappMessage}`} 
+                href={`https://wa.me/935146802?text=${whatsappMessage}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-6 group cursor-pointer w-fit"
@@ -74,7 +74,7 @@ export default function Contact() {
                     WhatsApp Directo
                   </p>
                   <p className="text-xl font-bold hover:text-modline transition-colors">
-                    +51 912 648 714
+                    +51 935 146 802 
                   </p>
                 </div>
               </a>

@@ -15,13 +15,6 @@ const projects: Project[] = [
     description: "Landing page enfocada en conversión y presentación de servicios de bienestar.",
     tags: ["Spa", "Landing page intermedia"],
     imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/bambuspacusco_hero_eooanr.webp"
-  },
-  {
-    slug: "agencia-marketing",
-    title: "Agencia de Marketing Digital",
-    description: "Sitio web de una página diseñado para maximizar la captación de leads.",
-    tags: ["Next.js", "TypeScript"],
-    imaurl:"https://res.cloudinary.com/de1pvywo7/image/upload/bambuspacusco_hero_eooanr.webp"
   }
 ];
 
